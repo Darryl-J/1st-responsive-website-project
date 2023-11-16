@@ -28,7 +28,7 @@ header {
 /*---------- CONTENT AREA ----------*/
 
 .col-3 {
-  width: 50%;
+  width: 33.33%;
   height: 320px;
   float: left;
 }
@@ -87,6 +87,7 @@ footer {
 
 
 /*---------- Desktops ----------*/
+/* Solution code again leaves the blank space. Changing the .col-3 tag alone to the one-thrid width keeps the columns intact across the page neatly with no spaces created. */
 @media (min-width: 1200px) {
   header {
     background-color: #6A5ACD;
