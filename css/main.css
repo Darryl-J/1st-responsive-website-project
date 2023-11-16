@@ -28,7 +28,7 @@ header {
 /*---------- CONTENT AREA ----------*/
 
 .col-3 {
-  width: 100%;
+  width: 50%;
   height: 320px;
   float: left;
 }
@@ -62,17 +62,21 @@ footer {
   header {
     background-color: #008B8B;
   }
+/* Peeked at solution code after attempting to widen the 2nd column using px instead of percent, it worked a little but not complete. Solution code leaves "open space" after columns 1&2 they do not span the page like column 3. Leaving the below widths they are the only solution that actually solves the presented problem in step 2 */
 
   #column-1 {
     background-color: #FF00FF;
+	width: 100%;
   }
 
   #column-2 {
     background-color: #FFF0F5;
+	width: 100%; 
   }
 
   #column-3 {
     background-color: #3CB371;
+	width: 100%; 
   }
 
   footer {
